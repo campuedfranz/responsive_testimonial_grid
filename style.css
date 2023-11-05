@@ -1,0 +1,114 @@
+/* CSS reset */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 3%;
+}
+
+/* all screen size panels styling */
+
+#testimonial-grid {
+    padding: 10px 20px;
+}
+
+.testimonial-panel {
+    border-radius: 15px;
+    padding: 10px 20px ;
+    margin-top: 10px;
+    
+}
+
+.client-information {
+    display: flex;
+}
+
+.client-image {
+    border-radius: 50%;
+    }
+
+.client-details {
+    margin-left: 15px;
+}
+
+.client-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.client-position {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+.testimonial-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.testimonial-message {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+#client-1 {
+    background-color: #4F9DA6;
+}
+
+#client-2 {
+    background-color: #FACF5A;
+}
+
+#client-3 {
+    background-color: #EB8887;
+}
+
+#client-4 {
+    background-color: #233142;
+    color: #F6F6F6;
+}
+
+#client-5 {
+    background-color: #F6F6F6;
+}
+
+
+/* desktop size styling min-width 769px */
+@media only screen and (min-width: 769px) {
+    #testimonial-grid {
+        display: flex;
+    }
+
+    .right-panels {
+        display: flex;
+        width: 18%;
+    }
+
+    .left-panels {
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-left-panels {
+        display: flex;
+        height: 50%;
+    }
+
+    .bottom-left-panels {
+        display: flex;
+        height: 50%;
+    }
+
+    .testimonial-panel {
+        margin-right: 10px;
+    }
+}
